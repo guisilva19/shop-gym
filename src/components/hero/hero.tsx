@@ -9,18 +9,18 @@ export default function Hero() {
     <>
       <main className="w-screen h-screen bg-black flex flex-col items-center justify-center">
         <section className="z-20 flex flex-col items-center justify-center w-max">
-          <TextGenerateEffect words="BUILD YOUR GYM" classNameText="text-6xl" />
+          <TextGenerateEffect words="BUILD YOUR GYM" classNameText="text-4xl md:text-6xl" />
           <TextGenerateEffect
             words="The gym hummed with activity, bodies moving with purpose."
-            classNameText="text-base font-light "
-            className="opacity-50"
+            classNameText="text-[12px] md:text-base font-light"
+            className="opacity-50 flex-wrap w-10/12 text-center leading-[5px]"
           />
           <div className="flex mt-10 gap-5">
-            <button className="px-10 py-4 rounded-full bg-white font-bold flex items-center gap-2 text-lg hover:animate-jump animate-once animate-duration-500">
+            <button className="px-5 md:px-10 md:py-4 py-3 rounded-full bg-white font-bold flex items-center gap-2 text-sm md:text-lg hover:animate-jump animate-once animate-duration-500">
               <MdOutlineShoppingCart size={25} />
               Shop Now
             </button>
-            <button className="px-10 py-4 rounded-full border bg-transparent font-semibold flex items-center gap-2 text-lg text-white hover:animate-jump animate-once animate-duration-500">
+            <button className="px-5 md:px-10 md:py-4 -py-1 rounded-full border bg-transparent font-semibold flex items-center gap-2 text-sm md:text-lg text-white hover:animate-jump animate-once animate-duration-500">
               Explore More
             </button>
           </div>
