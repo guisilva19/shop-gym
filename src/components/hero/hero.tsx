@@ -2,6 +2,7 @@ import Image from "next/image";
 import gym from "@/assets/gym.jpeg";
 import { TextGenerateEffect } from "../ui/text-generate";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaAngleDown } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -34,12 +35,11 @@ export default function Hero() {
           objectPosition="center"
           className=""
         />
-        <div className="absolute">
-          <p>SCROLL DOWN</p>
+        <div className="absolute bottom-10 text-white flex flex-col items-center animate animate-bounce animate-infinite">
+          <p className="animate-fade">SCROLL DOWN</p>
+          <FaAngleDown size={25} className="animate-fade" />
         </div>
       </main>
     </>
   );
 }
-
-
