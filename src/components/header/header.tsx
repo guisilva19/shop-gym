@@ -15,7 +15,7 @@ export default function Header() {
           <ul className="flex justify-between w-[530px]">
             {navList.map((item, index) => (
               <li key={index}>
-                <p className="text-white cursor-pointer">{item}</p>
+                <p className="text-white cursor-pointer hover:scale-110 duration-500">{item}</p>
               </li>
             ))}
           </ul>
