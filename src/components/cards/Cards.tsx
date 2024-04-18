@@ -14,8 +14,14 @@ export default function Cards() {
           { image: apparel, title: "APPAREL" },
           { image: deals, title: "DEALS" },
           { image: homeGymBundles, title: "HOME GYM BUNDLES" },
+          { image: bestSellers, title: "BEST SELLERS" },
+          { image: apparel, title: "APPAREL" },
+          { image: deals, title: "DEALS" },
           { image: homeGymBundles, title: "HOME GYM BUNDLES" },
-        
+          { image: bestSellers, title: "BEST SELLERS" },
+          { image: apparel, title: "APPAREL" },
+          { image: deals, title: "DEALS" },
+          { image: homeGymBundles, title: "HOME GYM BUNDLES" },
         ]}
       />
     </div>
