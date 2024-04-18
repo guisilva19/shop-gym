@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-screen h-20 absolute inset-0 z-20 flex justify-between items-center px-28">
+      <header className="w-screen h-20 absolute inset-0 z-20 flex justify-between items-center px-28 animate-fade-down animate-once">
         <div className="w-52">
           <Image src={logo} alt="logo" width={150} height={150} />
         </div>
